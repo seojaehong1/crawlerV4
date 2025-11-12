@@ -1,0 +1,19 @@
+# Ignore everything by default
+*
+
+# Allow selected tracked files
+!.gitignore
+!README.md
+!merged_crawler.py
+!test.py
+!require.txt
+!코드추가 및 수정 부분.html
+!*.csv
+
+# Keep virtualenv activation scripts out of git
+venv/
+
+# macOS & Windows noise
+.DS_Store
+Thumbs.db
+
